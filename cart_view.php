@@ -1,4 +1,4 @@
-<!DOCTYP">
+<!DOCTYPE html">
 <htm">
 <head>
     <title>My Guitar Shop</title>
@@ -61,6 +61,9 @@
         <?php endif; ?>
         <p><a href=".?action=show_add_item">Add Item</a></p>
         <p><a href=".?action=empty_cart">Empty Cart</a></p>
+
+
+ <p>Session ID: <?php echo session_id(); ?></p>
 
     </main>
 </body>
